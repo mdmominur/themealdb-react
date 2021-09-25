@@ -1,0 +1,21 @@
+.navbar{
+    background-color: rgb(44, 43, 43);
+    color: #fff;
+    text-align: center;
+}
+.navbar a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s ease;
+    padding: 15px 10px;
+    display: inline-block;
+}
+.navbar a:first-child{
+    margin-left: 0px;
+}
+
+.navbar a:hover{
+    background-color: goldenrod;
+    color: black;
+}
